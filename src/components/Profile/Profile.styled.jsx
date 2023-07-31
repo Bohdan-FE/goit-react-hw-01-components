@@ -10,7 +10,7 @@ export const ProfileContainer = styled.div`
   width: 300px;
   max-width: 100%;
   text-align: center;
-  margin: 0 auto;
+  margin: 0 auto 22px;
   img {
     margin: 0 auto 8px;
     width: 60%;
@@ -32,9 +32,12 @@ font-weight: 400;
 font-style: italic;
 margin-bottom: 6px;
 `;
+
 export const Location = styled.p`
     margin-bottom: 18px;
-    margin-left: 4px;
+    svg{
+      margin-right: 4px;
+    }
 `
 export const StatList =styled.ul`
     display: flex;
