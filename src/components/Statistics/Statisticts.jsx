@@ -1,5 +1,11 @@
 import PropTypes from 'prop-types';
-import { Label, StatisticsSection, Title, Persentage, Item } from './Statistics.styled';
+import {
+  Label,
+  StatisticsSection,
+  Title,
+  Persentage,
+  Item,
+} from './Statistics.styled';
 
 export const Statistics = ({ title, stats }) => {
   return (

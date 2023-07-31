@@ -12,7 +12,7 @@ export const FriendItem = ({ avatar, name, isOnline }) => {
 };
 
 FriendItem.propTypes = {
-    avarar: PropTypes.string,
-    name: PropTypes.string,
-    isOnline: PropTypes.bool,
-}
+  avarar: PropTypes.string,
+  name: PropTypes.string,
+  isOnline: PropTypes.bool,
+};

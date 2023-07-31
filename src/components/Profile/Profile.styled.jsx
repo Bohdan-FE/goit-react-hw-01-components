@@ -22,37 +22,37 @@ export const ProfileContainer = styled.div`
 `;
 
 export const Name = styled.p`
-    font-weight: 700;
-    font-size: 18px;
-    margin-bottom: 4px;
+  font-weight: 700;
+  font-size: 18px;
+  margin-bottom: 4px;
 `;
 
 export const Tag = styled.p`
-font-weight: 400;
-font-style: italic;
-margin-bottom: 6px;
+  font-weight: 400;
+  font-style: italic;
+  margin-bottom: 6px;
 `;
 
 export const Location = styled.p`
-    margin-bottom: 18px;
-    svg{
-      margin-right: 4px;
-    }
-`
-export const StatList =styled.ul`
-    display: flex;
-    align-items: center;
-    li {
-      background-color: #e2e1e9;
-      width: calc(100% /3);
-      border: 1px #676767 solid;
-      padding: 12px 0;
-    }
-`
-export const Label =styled.span`
-   display: block;
-   margin-bottom: 4px;
-`
+  margin-bottom: 18px;
+  svg {
+    margin-right: 4px;
+  }
+`;
+export const StatList = styled.ul`
+  display: flex;
+  align-items: center;
+  li {
+    background-color: #e2e1e9;
+    width: calc(100% / 3);
+    border: 1px #676767 solid;
+    padding: 12px 0;
+  }
+`;
+export const Label = styled.span`
+  display: block;
+  margin-bottom: 4px;
+`;
 export const Quantity = styled.span`
-    font-weight: 700;
-`
+  font-weight: 700;
+`;

@@ -1,7 +1,14 @@
 import PropTypes from 'prop-types';
-import { ProfileContainer, Name, Tag, StatList, Location, Label, Quantity } from './Profile.styled';
+import {
+  ProfileContainer,
+  Name,
+  Tag,
+  StatList,
+  Location,
+  Label,
+  Quantity,
+} from './Profile.styled';
 import { IoLocationSharp } from 'react-icons/io5';
-
 
 export const Profile = ({
   username,
@@ -10,7 +17,7 @@ export const Profile = ({
   avatar,
   followers,
   views,
-  likes
+  likes,
 }) => {
   return (
     <ProfileContainer>
@@ -18,7 +25,10 @@ export const Profile = ({
         <img src={avatar} alt="User avatar" className="avatar" />
         <Name>{username}</Name>
         <Tag>@{tag}</Tag>
-        <Location><IoLocationSharp/>{location}</Location>
+        <Location>
+          <IoLocationSharp />
+          {location}
+        </Location>
       </div>
 
       <StatList>
