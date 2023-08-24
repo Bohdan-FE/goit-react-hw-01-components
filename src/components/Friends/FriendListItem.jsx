@@ -1,7 +1,7 @@
 import PropTypes from 'prop-types';
 import { OnlineIndicator } from './Friends.styled';
 
-export const FriendItem = ({ avatar, name, isOnline }) => {
+export const FriendListItem = ({ avatar, name, isOnline }) => {
   return (
     <li className="item">
       <OnlineIndicator isOnline={isOnline}></OnlineIndicator>
@@ -11,7 +11,7 @@ export const FriendItem = ({ avatar, name, isOnline }) => {
   );
 };
 
-FriendItem.propTypes = {
+FriendListItem.propTypes = {
   avarar: PropTypes.string,
   name: PropTypes.string,
   isOnline: PropTypes.bool,

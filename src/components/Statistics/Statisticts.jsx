@@ -10,7 +10,7 @@ import {
 export const Statistics = ({ title, stats }) => {
   return (
     <StatisticsSection>
-      <Title>{title}</Title>
+      {title &&  <Title>{title}</Title>}
       <ul className="stat-list">
         {stats.map(obj => {
           return (
@@ -27,5 +27,9 @@ export const Statistics = ({ title, stats }) => {
 
 Statistics.propTypes = {
   title: PropTypes.string,
-  stats: PropTypes.array,
+  stats: PropTypes.arrayOf(PropTypes.shape({
+    id: PropTypes.string,
+    label: PropTypes.string,
+    persentage: PropTypes.number,
+  }),),
 };
